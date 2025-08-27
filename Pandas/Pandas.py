@@ -1,8 +1,9 @@
+'''Importação para utilizar os pandas'''
 import pandas as pd
 
 dados = {
     'Nome': ['Ana', 'Bruno', 'Carlos'],
-    'idadea': [25, 47, 32],
+    'idade': [25, 47, 32],
 }
 
 df = pd.DataFrame(dados)
